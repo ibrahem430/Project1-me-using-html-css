@@ -1,0 +1,151 @@
+
+body{
+  margin:0;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #bbbcbd, #bbbcbd, #bbbcbd);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  
+  }
+
+.grid{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.picture{
+    height: 100%;
+    grid-area: 2/2/4/4;
+    border-radius: 50%;
+}
+.blue{
+    background-color: #1b236d;
+    grid-area: 3/1/5/9;
+}
+.white{
+    background-color: white;
+    grid-area: 1/1/3/9;
+}
+.name{
+    font-size: 100px;
+    grid-area: 3/5/5/8;
+    margin-top: 20px;
+    color: white;
+}
+.experience{
+   
+    background-color: #ffffff;
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+.experience-flex{
+float: left;
+height: 250px;
+padding-right: 40px;
+padding-bottom: 40px;
+}
+.experience-p{
+    font-size: 25px;
+     padding-top: 20px;
+     width: 100%;
+     
+}
+.button-change{
+    background-color: #1b236d;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+   border-radius: 10px; 
+   margin-top: 40px;
+   margin-left: 30%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.flex2{
+    border: #1b236d solid;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+    @media screen and (max-width :1513.04px) {
+        .name{
+            font-size: 80px;
+            margin-top: 30PX;
+          text-align: center;
+        }
+    }
+    @media screen and (max-width :792px) {
+        .picture{
+            height: 75%;
+            grid-area: 1/3/3/6;
+            margin-top: 40px;
+       
+        }
+        .blue{
+            background-color: #1b236d;
+            grid-area: 2/1/5/9;
+        }
+        .white{
+            background-color: white;
+            grid-area: 1/1/2/9;
+        }
+        .name{
+            grid-area: 3/2/5/8;
+            text-align: center;
+        }
+        
+      
+    }
+    @media screen and (max-width:611.04px) {
+        .name{
+            font-size: 60px;
+            text-align: center;
+        }
+     
+        .experience-flex{
+            height: 300px;
+        }
+        .experience{
+   
+        
+            margin-left: 10%;
+            margin-right: 5%;
+            
+            
+        }
+        
+    }
+   .down{
+   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+   }
+   .down2{
+    background-color: #1b236d;
+    height: 250px;
+   }
+   .about-me{
+    margin-left:35% ;
+     margin-right: 35%;}
+
+
+
+ 
