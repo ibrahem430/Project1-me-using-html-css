@@ -34,6 +34,9 @@ body{
     margin-top: 20px;
     color: white;
 }
+.about-me{
+    margin-left:35% ;
+     margin-right: 35%;}
 .experience{
    
     background-color: #ffffff;
@@ -89,6 +92,10 @@ a{
             margin-top: 30PX;
           text-align: center;
         }
+        .about-me{
+            margin-left:25% ;
+             margin-right: 25%;}
+        
     }
     @media screen and (max-width :792px) {
         .picture{
@@ -109,6 +116,9 @@ a{
             grid-area: 3/2/5/8;
             text-align: center;
         }
+        .about-me{
+            margin-left:20% ;
+             margin-right: 20%;}
         
       
     }
@@ -129,6 +139,9 @@ a{
             
             
         }
+        .about-me{
+            margin-left:15% ;
+             margin-right: 15%;}
         
     }
    .down{
@@ -142,9 +155,12 @@ a{
     background-color: #1b236d;
     height: 250px;
    }
-   .about-me{
-    margin-left:35% ;
-     margin-right: 35%;}
+.moveMouseOverButton{
+    color: black;
+    background-color: white;
+    border: 3px solid #000;
+    font-weight: bolder;
+}
 
 
 
